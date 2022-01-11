@@ -6,6 +6,7 @@ botaoAdd.addEventListener("click", function (event) {
   const paciente = obterInfoForm(form);
   //cria tr e td no paciente
   let pacienteTr = criaTr(paciente);
+
   //addicionando o paciente na tabela
   let tabela = document.querySelector("#tabela-pacientes");
   tabela.appendChild(pacienteTr);
